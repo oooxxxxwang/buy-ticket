@@ -1,0 +1,12 @@
+{
+  "name": "Auto Buy Ticket",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://irs.thsrc.com.tw/IMINT/*"],
+      "js": ["index.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
